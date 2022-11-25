@@ -1,0 +1,7 @@
+git remote add origin https://github.com/sunketaanusha/java.git
+mvn archetype:generate -DgroupId=com.java -DartifactId=java -Dversion=1.0.0 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+git init
+git add .
+git remote add origin https://github.com/sunketaanusha/java.git
+git commit -m "javapractice"
+git push -u origin master
